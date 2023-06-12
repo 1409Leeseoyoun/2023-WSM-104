@@ -19,6 +19,20 @@ ex)
     <title>나를 소개합니다</title>
     <link hrif="style.css" rel="stylessheet">
     <style>
+        table {
+            /* 셀 사이의 경계를 한 줄로 */
+            border-collapse: collapse;
+            /* 가운데 배치(수평) */
+            margin: auto;
+        }
+        /* 많이 쓰인다 */
+        td ,th {
+            /* 테두리 */
+            border: 1px solid black;
+            padding: 10px;
+            /* 글자 가운데 정렬 */
+            text-align: center;
+        }
         h2{
             color: plum;
         }
@@ -71,6 +85,29 @@ ex)
         <li> <a href="https://www.youtube.com/" target="_blank"> 유튜브</li>
         <li> <a href="https://www.naver.com/" target="_blank"> 네이버</li>
     </ul>
+    <table>
+        <tr>
+            <th>네이버</th>
+            <th>https://www.naver.com</th>
+            <th>포탈</th>
+        </tr> <br>
+        <tr>
+            <th>유튜브</th>
+            <th>https://www.youtube.com/</th>
+            <th>영상</th>
+        </tr> <br>
+        <tr>
+            <th>인스타그램</th>
+            <th>https://www.instagram.com/</th>
+            <th>SNS</th>
+        </tr> <br>
+        <tr>
+            <th>이름</th>
+            <th>번호</th>
+            <th>스팩</th>
+        </tr>
+    </table>   
+    
     
     
 </body>
