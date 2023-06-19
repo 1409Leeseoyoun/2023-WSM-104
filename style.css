@@ -1,3 +1,18 @@
+/* 전체선택자 */
+* {
+    color : red
+}
+
 div {
     color : purple
+}
+
+/* 태그선택자 */
+.c {
+    color : blueviolet
+}
+
+/* 클래스선택자 */
+#i {
+    color : blue
 }
