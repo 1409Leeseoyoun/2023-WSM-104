@@ -4,7 +4,13 @@
 }
 
 div {
-    color : purple
+    color: purple;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid black;
+    /* margin은 두 요소들과의 사이를 떨어트린다 */
+    margin: 10px;
 }
 
 /* 태그선택자 */
