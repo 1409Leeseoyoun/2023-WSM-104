@@ -1,0 +1,92 @@
+#signup-form {
+    /* 요소를 아예 사라지게 함 */
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* 박스의 전체크기를 width값으로 지정 */
+    box-sizing: border-box;
+}
+
+body {
+    /* 높이를 화면 높이의 100% */
+    height: 100vh;
+    background-color: #222;
+
+    display: flex;
+    /* box를 수평적으로 중앙에 맞춤 */
+    justify-content: center;
+    /* box를 수직적으로 중앙에 맞춤 */
+    align-items: center;
+}
+
+.form-container {
+    width: 600px;
+    padding: 50px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/* 제목글자 */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #b38bff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #555;
+    /* color: #fff; */
+}
+
+button {
+    padding: 10px;
+    background-color: #b38bff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #8c5fb2;
+}
+
+a {
+    color: #b38bff;
+    /* 밑줄 제거 */
+    text-decoration: none;
+    font-size: 16px;
+    /* 이벤트 발생했을 때 style 변화를 자연스럽게(스무스) */
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #8c5f8c;
+}
+
+p {
+    text-align: center;
+    margin: 8px;
+}
